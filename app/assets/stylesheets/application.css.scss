@@ -37,3 +37,19 @@ h1, h2, h3 {
   padding-top: 50px;
   padding-bottom: 100px;
 }
+
+.navbar-default .navbar-brand {
+  color: white;
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
+}
+
