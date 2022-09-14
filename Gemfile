@@ -23,11 +23,10 @@ gem 'hirb', '0.7.3'
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 group :production do
-  gem 'pg', '0.18.4'
+  gem 'pg', '1.1'
 end
 
 group :development, :test do
-  gem "sqlite3", "1.4.2"
   gem "debug",   "1.5.0", platforms: %i[ mri mingw x64_mingw ]
 end
 
