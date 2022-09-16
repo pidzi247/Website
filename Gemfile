@@ -21,6 +21,10 @@ gem 'font-awesome-sass', '4.6.2'
 gem 'hirb', '0.7.3'
 # Use Devise for user authentication
 gem 'devise'
+# Use Stripe for payment processing
+gem 'stripe'
+# Use Figaro for ENV variables
+gem 'figaro'
 
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
