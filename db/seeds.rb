@@ -7,4 +7,4 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 Plan.create(name: 'basic', price: 0)
-Plan.create(name: 'premium', price: 8.99)
+Plan.create(name: 'premium', price: 10)
