@@ -25,6 +25,8 @@ gem 'devise'
 gem 'stripe'
 # Use Figaro for ENV variables
 gem 'figaro'
+# Use Paperclip for uploading images
+gem 'paperclip'
 
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
