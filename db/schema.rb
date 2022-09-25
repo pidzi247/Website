@@ -33,6 +33,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_22_201912) do
     t.integer "user_id"
     t.string "first_name"
     t.string "last_name"
+    t.string "nickname"
     t.string "job_title"
     t.string "phone_number"
     t.string "contact_email"
