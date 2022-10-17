@@ -44,7 +44,7 @@
           </div>
           <ul class="nav navbar-nav navbar-right">
             <% if user_signed_in? %>
-              <% if current_user.profile.nickname %>
+              <% if current_user.profile %>
                 <li><%= link_to "#{current_user.profile.nickname}".upcase, user_path(id: current_user.id) %></li>
               <% else %>
                 <li><%= link_to "My Account", edit_user_registration_path %></li>
