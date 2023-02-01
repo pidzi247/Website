@@ -26,7 +26,9 @@ gem 'stripe'
 # Use Figaro for ENV variables
 gem 'figaro'
 # Use Paperclip for uploading images
-gem "kt-paperclip", "~> 6.4", ">= 6.4.1"
+
+gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '3543363026121ee28d98dfce4cb6366980c055ee'
+
 
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
